@@ -208,7 +208,7 @@ class GameView(arcade.View):
         arcade.draw_text(level_text, 10, 20, arcade.color.BLACK, 15)
         
         # Score text on the screen
-        score_text = f"Level: {self.score}"
+        score_text = f"Score: {self.score}"
         arcade.draw_text(score_text, 10, 40, arcade.color.BLACK, 15)
 
     def update_player1_speed(self):
