@@ -113,6 +113,7 @@ class GameView(arcade.View):
         ''' Set up the game and initialize the variables'''
 
         self.level = level
+        self.score = 0
 
         #sprite lists
         self.bullet_list = arcade.SpriteList()
