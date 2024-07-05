@@ -150,7 +150,7 @@ class GameView(arcade.View):
             #create the obstical instance
             obstical = Obstical("Resources/Obstical1.png", SPRITE_SCALING_OBSTICAL)
 
-            ''' Making suer objects are not on each other'''
+            ''' Making sure objects are not on each other'''
             obstical_placed_successfully = False
 
             while not obstical_placed_successfully:
